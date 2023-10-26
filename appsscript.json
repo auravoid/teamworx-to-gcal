@@ -1,0 +1,26 @@
+{
+    "timeZone": "America/New_York",
+    "dependencies": {},
+    "exceptionLogging": "STACKDRIVER",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+      "https://www.googleapis.com/auth/gmail.addons.execute",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/gmail.readonly",
+      "https://www.googleapis.com/auth/calendar"
+    ],
+    "runtimeVersion": "V8",
+    "gmail": {
+      "name": "Teamworx to Google Calendar",
+      "logoUrl": "https://play-lh.googleusercontent.com/NwRyMmSUPt6MWfp1x9OTLsYRC7Nen6xA9HUfrQ5Mx-0HVHf-f_eqUIyjzm9dLNvP87k",
+      "homepageTrigger": {
+        "enabled": false,
+        "runFunction": "loadAddOn"
+      },
+      "primaryColor": "#fc8925",
+      "openLinkUrlPrefixes": [
+        "https://developers.google.com/gmail"
+      ],
+      "version": "TRUSTED_TESTER_V2"
+    }
+  }
